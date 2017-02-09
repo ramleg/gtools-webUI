@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.1.RELEASE</version>
+		<version>1.4.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -29,7 +29,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -40,6 +39,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+                <dependency>
+                        <groupId>org.springframework.session</groupId>
+                        <artifactId>spring-session</artifactId>
+                </dependency>
+                <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-redis</artifactId>
+                </dependency>
 	</dependencies>
 
 
@@ -79,7 +90,7 @@
                   <dependency>
                     <groupId>org.webjars</groupId>
                     <artifactId>angularjs</artifactId>
-                    <version>1.6.1</version>
+                    <version>1.5.9</version>
                   </dependency>
                   <dependency>
                     <groupId>org.webjars</groupId>
